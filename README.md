@@ -1,2 +1,2 @@
 # c4sp
-GSAPP Coding for Spatial Practices Projects
+GSAPP Coding for Spatial Practices Projects - Fall 2021
