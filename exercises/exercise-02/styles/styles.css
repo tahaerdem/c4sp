@@ -1,0 +1,48 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+p {
+    color: blue;
+    font-size: 12px;
+}
+
+h1 {
+    color: #000;
+    font-size: 80px;
+    font-family: 'Helvetica Neue', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    color: black;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.spaced {
+    line-height: 1.2em;
+}
+
+.title {
+    color: #000;
+    font-weight: bold;
+}
+
+.lead {
+    font-style: italic;
+}
+
+.neon {
+    color: #00ff00;
+    text-decoration: none;
+}
+
+.neonl {
+    text-decoration: underline;
+    text-decoration-color: #00ff00;
+}
+
+.register {
+    text-transform: uppercase;
+}
