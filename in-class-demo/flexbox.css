@@ -1,0 +1,21 @@
+body {
+    background-color: whitesmoke;
+}
+
+.main {
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.item {
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+}

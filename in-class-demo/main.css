@@ -73,7 +73,7 @@ aside {
 }
 
 section {
-    display: inline-block;
+    display: flex;
     background-color: lavender;
     width: 70%;
     height: 100%;

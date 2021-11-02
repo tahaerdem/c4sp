@@ -1,0 +1,153 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+@font-face {
+    font-family: AG;
+    src: url(../fonts/Akzidenz-Grotesk-Pro-Regular-Regular.woff2) format(woff2);
+}
+
+html, body {
+    background-color: #ec3730;
+    font-family: 'AG', 'Helvetica Neue Bold', sans-serif;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+p {
+    color: whitesmoke;
+}
+
+h4 {
+    font-family: 'AG', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    font-size: 1.8em;
+    font-weight: lighter;
+}
+
+h6 {
+    font-family: 'AG', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    font-size: 0.4vmax;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+header {
+    display: flex;
+    height: 15%;
+    justify-content: space-around;
+}
+
+main {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 40%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    text-decoration: none;
+    color: white;
+
+    display: block;
+    float: left;
+    margin: 20px 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(255, 168, 168);
+text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: none;
+    color: rgb(255, 168, 168);
+}
+
+.metaLogoBig {
+    display: flex;
+    position: relative;
+    justify-content: flex-end space-around;
+    height: 40%;
+    width: 60%;
+}
+
+.metalinks {
+    display: flex;
+    position: relative;
+    justify-content: flex-end bottom;
+    height: 40%;
+    width: 40%;
+}
+
+.metaSlogan {
+    position: relative;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    font-size: 1.2vmin;
+}
+
+.metaButton {
+    margin: 50px;
+    padding: 50px;
+}
+
+.meta {
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.metaSloganButton {
+    display: flex;
+    position: relative;
+    height: 4vh;
+    width: 100%;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+a.button {
+    background-color: #ec3730;
+    border: 2px rgb(240, 234, 234);
+    border-radius: 35px;
+    border-style: solid;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    padding: 15px 0px;
+    line-height: 0.5vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vh;
+    width: 9%;
+  }
+
+a.button:hover {
+        color: rgb(255, 168, 168);
+}

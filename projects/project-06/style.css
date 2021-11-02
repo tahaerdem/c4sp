@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #E0DDD4;
+    font-family: 'Helvetica Neue Bold', sans-serif;
+}
+
+nav {
+    height: 60px;
+}
+
+ul.container {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background: tomato;
+    line-height: 60px;
+}
+
+li {
+    padding: 0 120px;
+}
+
+.container a {
+    color: white;
+text-decoration: none;
+}
+
+li:hover {
+    animation: changeMe 0.5s ease-in-out;
+}
+
+@keyframes changeMe {
+    0% {
+        background-color: tomato;
+    }
+    50% {
+        background-color: slategray;
+    }
+    100% {
+        background-color: tomato;
+    }
+}
+
+.main {
+    margin: 50px;
+}

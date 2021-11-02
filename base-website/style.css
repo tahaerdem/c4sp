@@ -29,7 +29,7 @@ nav {
 
 footer {
     display: block;
-    position:fixed;
+    position: absolute;
     bottom: 0;
     height: 10%;
     width: 100%;
@@ -50,18 +50,8 @@ footer {
     height: 100%;
 }
 
-.box {
-    background-color: yellow;
-    width: 400px;
-    height: 400px;
-    position: absolute;
-    top: 100px;
-    left: 50%;
-    z-index: 2;
-}
-
 main {
-    height: 100%;
+    height: 70%;
 }
 
 aside {
