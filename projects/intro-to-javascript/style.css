@@ -1,0 +1,10 @@
+* {
+    background-color: brown;
+}
+
+.meta {
+    position: center;
+    text-align: center;
+    color: white;
+    font-size: 70px;
+  }
