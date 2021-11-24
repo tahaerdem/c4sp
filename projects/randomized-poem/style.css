@@ -1,10 +1,20 @@
+* {
+    margin: 20px;
+}
+
 body {
     background-color: dodgerblue;
 }
 
+button {
+    font-size: 80px;
+}
+
 p {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px; 
+    font-weight: bolder;
+    color: rgb(255, 239, 129);
+    font-size: 30px; 
 }
 
 .poem {
