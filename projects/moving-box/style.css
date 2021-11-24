@@ -1,7 +1,17 @@
+body {
+    background-color: rgb(255, 170, 60);
+}
+
 .square {
     width: 150px;
     height: 150px;
-    background: tomato;
+    background: rgb(255, 129, 71);
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 @keyframes slide {
