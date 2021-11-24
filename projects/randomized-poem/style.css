@@ -1,0 +1,12 @@
+body {
+    background-color: dodgerblue;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.poem {
+    margin: 1px;
+}
