@@ -118,3 +118,23 @@ a.button {
   a.button:hover {
     color: rgb(255, 168, 168);
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 168, 168);
+text-decoration: none;
+}
+
+a:any-link {
+    color: white;
+    text-decoration: none;
+}
