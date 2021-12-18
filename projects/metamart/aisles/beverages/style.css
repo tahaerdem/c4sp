@@ -98,9 +98,10 @@ main {
 
 .aisleItem {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
+/*    flex-wrap: wrap; */
     justify-content: center;
+    align-items: center;
     height: 200px;
     width: 10%;
     margin: 0px 1px 10px 1px;
