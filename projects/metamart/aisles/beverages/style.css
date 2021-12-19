@@ -24,6 +24,8 @@ p {
 a {
     color: white;
     text-decoration: none;
+    display: flex;
+    flex-grow: 2;
 }
 
 a:visited {
@@ -95,6 +97,11 @@ main {
     color: white;
     font-size: 15px;
 }
+
+a:hover {
+    color: #ec3730;
+}
+
 
 .aisleItem {
     display: flex;
