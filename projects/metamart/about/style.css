@@ -3,12 +3,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
 }
 
 @font-face {
     font-family: AG;
-    src: url(../fonts/Akzidenz-Grotesk-Pro-Regular-Regular.woff2) format(woff2);
+    src: url(../../fonts/Akzidenz-Grotesk-Pro-Regular-Regular.woff2) format(woff2);
 }
 
 html, body {
@@ -19,7 +18,33 @@ html, body {
 }
 
 p {
+    font-family: 'AG', 'Helvetica Neue', sans-serif;
     color: whitesmoke;
+    font-size: 14px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-grow: 2;
+}
+
+a:visited {
+    color: rgb(255, 168, 168);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 168, 168);
+text-decoration: none;
+}
+
+a:any-link {
+    color: white;
+    text-decoration: none;
 }
 
 h4 {
@@ -27,6 +52,14 @@ h4 {
     color: whitesmoke;
     font-size: 1.8em;
     font-weight: lighter;
+}
+
+h5 {
+    font-family: 'AG', 'Helvetica Neue', sans-serif;
+    color: whitesmoke;
+    font-size: 2vmax;
+    font-style: italic;
+    font-weight: bolder;
 }
 
 h6 {
@@ -40,20 +73,137 @@ h6 {
 header {
     display: flex;
     height: 15%;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 30px 9.5% 0px 10%;
 }
 
 main {
     position: relative;
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
+    padding: 5% 11% 5% 11%;
+}
+
+.aisleSelected {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 10px 0 20px 0;
+    padding: 10px 10px 2px 10px;
+    gap: 2px 10px;
+    border: 2px  white;
+    border-style: solid;
+    color: white;
+    font-size: 15px;
+}
+
+a:hover {
+    color: #ec3730;
+}
+
+.all {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-nav {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 48.25%;
+    padding-right: 48.25%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.metaNavButton {
+    display: flex;
+    position: relative;
+    height: 48px;
+    width: 48px;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.aisleItem {
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+/*    flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    min-width: 150px;
+    height: 200px;
+    width: 10%;
+    margin: 0px 1px 10px 1px;
+    padding: 10px 10px 10px 10px;
+    border: 2px  white;
+    border-style: solid;
+    color: white;
+    font-size: 15px;
+}
+
+.aisleItem:hover {
+    color: #ec3730;
+    background-color: white;
+    cursor: pointer;
+}
+
+.aisle {
+    display: flex;
+    height: 100px;
+    width: 32%;
+    margin: 10px 0 20px 0;
+    padding: 10px 10px 10px 10px;
+    border: 2px  lightsalmon;
+    border-style: dashed;
+    color: white;
+    font-size: 15px;
+}
+
+.aisle:hover {
+    background-color: lightsalmon;
+    color: #ec3730;
+    cursor: pointer;
+}
+
+.aislelong:hover {
+    background-color: lightsalmon;
+    color: #ec3730;
+    cursor: pointer;
+}
+
+.aislelong {
+    display: flex;
+    height: 220px;
+    width: 100%;
+    margin: 10px 0 20px 0;
+    padding: 10px 10px 10px 10px;
+    border: 2px  lightsalmon;
+    border-style: dashed;
+    color: white;
+    font-size: 15px;
 }
 
 footer {
     position: relative;
     display: flex;
-    flex-direction: column-reverse;
-    height: 40%;
+    flex-direction: column;
+    height: 10%;
+    padding: 0px 200px 50px 200px;
+}
+
+
+.footer-nav {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 ul {
@@ -61,12 +211,14 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    text-align: right;
+
 }
 
 li {
     text-decoration: none;
     color: white;
-
+    text-align: right;
     display: block;
     float: left;
     margin: 20px 30px;
@@ -75,23 +227,22 @@ li {
 li a {
     text-decoration: none;
     color: white;
-}
+    text-align: right;
 
-a:hover {
-    color: rgb(255, 168, 168);
-text-decoration: none;
 }
 
 li a:hover {
     text-decoration: none;
+    text-align: right;
+
     color: rgb(255, 168, 168);
 }
 
-.metaLogoBig {
+.aislesLogo {
     display: flex;
     position: relative;
     justify-content: flex-end space-around;
-    height: 40%;
+    height: 65px;
     width: 60%;
 }
 
@@ -127,10 +278,20 @@ li a:hover {
     display: flex;
     position: relative;
     height: 4vh;
-    width: 100%;
+    width: 200px;
     justify-content: center;
     vertical-align: middle;
 }
+
+.topNavButton {
+    display: flex;
+    position: relative;
+    height: 2vmax;
+    width: 250px;
+    justify-content: center;
+    vertical-align: middle;
+}
+
 
 a.button {
     background-color: #ec3730;
@@ -139,15 +300,18 @@ a.button {
     border-style: solid;
     color: rgb(255, 255, 255);
     font-weight: 500;
-    padding: 15px 0px;
-    line-height: 0.5vh;
+    padding: 0px 0px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
-    font-size: 1.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 12px;
     width: 9%;
   }
 
-a.button:hover {
-        color: rgb(255, 168, 168);
+  a.button:hover {
+    color: #ec3730;
+    border-color: 2px rgb(0, 0, 0);
+    background-color: #ffffff;
 }
