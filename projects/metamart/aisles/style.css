@@ -69,7 +69,7 @@ header {
     display: flex;
     height: 15%;
     justify-content: space-between;
-    padding: 30px 170px 0px 170px;
+    padding: 30px 9.5% 0px 10%;
 }
 
 main {
@@ -79,7 +79,7 @@ main {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    padding: 0px 200px 0px 200px;
+    padding: 0px 11% 0px 11%;
 }
 
 .aisle {
@@ -163,7 +163,7 @@ li a:hover {
     display: flex;
     position: relative;
     justify-content: flex-end space-around;
-    height: 40%;
+    height: 65px;
     width: 60%;
 }
 
