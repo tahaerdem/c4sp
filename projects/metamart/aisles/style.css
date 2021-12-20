@@ -96,8 +96,9 @@ main {
 }
 
 .aisle {
-    display: block;
-    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     width: 32%;
     margin: 10px 0 20px 0;
     padding: 10px 10px 10px 10px;
@@ -105,6 +106,37 @@ main {
     border-style: dashed;
     color: white;
     font-size: 15px;
+}
+
+.aisleIcon {
+    display:flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    height: 70px;
+    width: 10%;
+    min-width: 10px;
+    margin-bottom: 2%;
+}
+
+.aisleHeader {
+    display: flex;
+    width: 99%;
+    padding-left: 4px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aisleIconRow {
+    display: flex;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 100%;
 }
 
 .aislelong {

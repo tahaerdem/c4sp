@@ -43,6 +43,22 @@ a:any-link {
     text-decoration: none;
 }
 
+
+h2 {
+    font-family: 'AG', 'Helvetica Neue', sans-serif;
+    color: salmon;
+    font-size: 1vmax;
+    font-weight: bolder;
+}
+
+h3 {
+    font-family: 'AG', 'Helvetica Neue', sans-serif;
+    color: salmon;
+    font-size: 2vmax;
+    font-style: italic;
+    font-weight: bolder;
+}
+
 h4 {
     font-family: 'AG', 'Helvetica Neue', sans-serif;
     color: whitesmoke;
@@ -57,6 +73,7 @@ h5 {
     font-style: italic;
     font-weight: bolder;
 }
+
 
 h6 {
     font-family: 'AG', 'Helvetica Neue', sans-serif;
@@ -138,10 +155,24 @@ a:hover {
     font-size: 15px;
 }
 
+.idRecommendations {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 12px;
+    width: 100%;
+}
+
 .aisleItem:hover {
     color: #ec3730;
     background-color: white;
     cursor: pointer;
+}
+
+.idHeader {
+    display: flex;
+    justify-content: right;
+    align-items: baseline;
+    
 }
 
 .aisle {
@@ -197,7 +228,14 @@ ul {
 
 }
 
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
 li {
+    list-style: none;
     text-decoration: none;
     color: white;
     text-align: right;
