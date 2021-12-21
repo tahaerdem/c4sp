@@ -320,9 +320,11 @@ padding: 25px 25%;
 display: flex;
 justify-content: space-between;
 padding: 25px 150px;
-
-
   }
+
+.footer {
+  padding: 600px 0px 300px 5%;
+}
 
   .logonav {
     height: 100%;
@@ -369,6 +371,15 @@ padding: 25px 150px;
     display: flex;
   justify-content: space-between; 
   }
+
+  .footer {
+    padding: 600px 0px 300px 10%;
+  }
+
+  .footernav {
+    display:  none;
+  }
+  
 }
 
 
@@ -382,6 +393,7 @@ padding: 25px 150px;
   .logonav {
     height: 100%;
     display: flex;
+    position: fixed;
   justify-content: center;  }
 
   .menunav {
@@ -395,4 +407,13 @@ padding: 25px 150px;
   .menunav3 {
     display: none;
   }
+
+  .footer {
+    padding: 600px 0px 300px 10%;
+  }
+
+  .footernav {
+    display:  none;
+  }
+  
 }
