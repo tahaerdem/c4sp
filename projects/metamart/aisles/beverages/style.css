@@ -448,27 +448,32 @@ a.wishlistButton {
     }    
       }
 
-@media screen and (max-width: 900px) {
-header {
-    width: 100%;
-    justify-content: center;
-}
-
-.metaLinks {
-    display: none;
-}
-
-.aislesLogo {
-    width: 100%;
-    justify-content: center;
-    padding-left: 5px;
-}
-
-  }
-
-
-  @media screen and (max-height: 1500px) {
-    header {
-        padding-bottom: 100px;
-    }   
-      }
+      @media screen and (max-width: 900px) {
+        header {
+            width: 100%;
+            justify-content: center;
+        }
+        
+        .metaLinks {
+            display: none;
+        }
+        
+        .aislesLogo {
+            width: 100%;
+            position: fixed;
+            z-index: 1;
+            justify-content: center;
+            padding-left: 5px;
+        }
+        
+          }
+        
+          @media screen and (max-height: 1500px) {
+            header {
+                padding-bottom: 100px;
+            }   
+            .aislesLogo {
+                position: fixed;
+                z-index: 1;
+            }
+              }
