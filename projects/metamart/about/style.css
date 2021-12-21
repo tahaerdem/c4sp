@@ -315,3 +315,29 @@ a.button {
     border-color: 2px rgb(0, 0, 0);
     background-color: #ffffff;
 }
+
+@media screen and (max-width: 1400px) {
+    header {
+        width: 100%;
+        justify-content: center;
+        padding: 30px 4.5% 0px 5%;
+    }    
+      }
+
+@media screen and (max-width: 900px) {
+header {
+    width: 100%;
+    justify-content: center;
+}
+
+.metaLinks {
+    display: none;
+}
+
+.aislesLogo {
+    width: 100%;
+    justify-content: center;
+    padding-left: 5px;
+}
+
+  }
