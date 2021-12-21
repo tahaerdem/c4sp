@@ -391,6 +391,11 @@ padding: 25px 150px;
     padding: 25px 150px;
   }
 
+  .title {
+    padding-left: %1;
+    padding-right: %1;
+  }
+
   .logonav {
     height: 100%;
     display: flex;
