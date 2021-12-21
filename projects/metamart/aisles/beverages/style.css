@@ -388,6 +388,7 @@ a.button {
 
 .aisleIconRow {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-start;
     height: 80%;
     width: 100%;
@@ -406,5 +407,10 @@ a.button {
 
 .itemRow {
     display: flex;
+    width: %100;
+}
+
+.itemRowText {
+    display: inline-block;
     width: %100;
 }
