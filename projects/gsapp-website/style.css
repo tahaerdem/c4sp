@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  /* Makes the class apply to everything and override default css settings. */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* idk what this is, check it out */
+}
+
+html,
+body {
+  height: 100%;
+}
+
+@font-face {
+  font-family: "gsapp";
+  src: url(https://d37vpt3xizf75m.cloudfront.net/assets/gsapp_night/gsapp_night-1e77dcb719f10ffcb047a72184927ee2581aa08840a78e233b5668a0522e5f7d.woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "gsapp-mono";
+  src: url(https://d37vpt3xizf75m.cloudfront.net/assets/gsapp_mono/gsapp_mono-8968a1ec0780fa6cd021f5a9f5de05cdf16e254b7e955534cdbf202b39f5215b.woff2);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Helvetica Neue", "Roboto", sans-serif;
+  background: linear-gradient(
+    180deg,
+    rgba(96, 110, 225, 1) 4px,
+    rgba(250, 250, 250, 1) 300px,
+    rgba(250, 250, 250, 1) 100%
+  );
+  background-repeat: no-repeat;
+}
+
+h2 {
+}
+
+h3 {
+  color: #000;
+  font-family: "gsapp", sans-serif;
+  font-size: 54px;
+}
+
+.gsappsmall {
+  font-family: "gsapp-mono", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 1.4em;
+}
+
+.gsappbig {
+  font-family: "gsapp", sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+  line-height: 0em;
+}
+
+.lux {
+  color: white;
+}
+
+.topbar {
+  height: 100px;
+  display: block;
+  padding: 25px 275px;
+}
+.logonav {
+  height: 100%;
+  display: inline-block;
+  padding: 0px 25px;
+}
+.menunav {
+  height: 100%;
+  display: inline-block;
+  float: right;
+}
+.menunav a {
+  color: white;
+  letter-spacing: 0.08rem;
+  font-size: 17px;
+  font-weight: 300;
+  display: inline-block;
+  padding: 10px 25px;
+  text-decoration: none;
+}
+
+.abox {
+  border-style: solid;
+  border-width: 1px;
+}
+
+.title {
+  text-align: center;
+  margin: 70px 600px 100px;
+}
+
+.socialborder {
+  border: 1px solid #00ff00;
+  padding: 0 40px 0 0px;
+}
+
+.subtitle {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.container {
+  /* width: 100%; */
+  padding: 0 0px 100px 0px;
+  margin: 50px 300px;
+}
+
+.main {
+  display: inline-block;
+  width: 76%;
+  padding-right: 20px;
+}
+
+.sidebar {
+  display: inline-block;
+  width: 24%;
+  height: 100%;
+  float: right;
+}
+
+.footer {
+  height: 100px;
+  display: block;
+  padding: 80px 0px 300px 300px;
+  background-color: #0000ff;
+}
+
+.footercol {
+  display: inline-block;
+  text-align: left;
+  font-size: 20px;
+  width: 60%;
+  float: left;
+}
+
+.footertop {
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 250, 1) 0px,
+    rgba(250, 250, 250, 0.2) 140px,
+    rgba(250, 250, 250, 0) 160px,
+    rgba(250, 250, 250, 0) 100%
+  );
+  padding: 00px 0px 160px 0px;
+  background-repeat: no-repeat;
+}
+
+.footernav {
+  display: inline-block;
+  float: left;
+  text-align: right;
+  font-size: 20px;
+}
+
+a:visited {
+}
+
+.neon {
+  color: #00ff00;
+  text-decoration: none;
+}
+
+.neonu {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #00ff00;
+}
+
+.register {
+  text-transform: uppercase;
+}
