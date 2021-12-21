@@ -198,7 +198,7 @@ width: 100%;
   z-index: -100;
   display: flex;
   position: fixed;
-  padding: 400px 0px 300px 300px;
+  padding: 600px 0px 300px 10%;
   background-color: rgba(0, 0, 250, 1);
 }
 
@@ -277,6 +277,12 @@ a:visited {
 
 
 @media screen and (min-width: 2000px) {
+  .topbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 25%;
+      }
+
   .title {
     text-align: center;
     margin: 70px 35% 100px;
@@ -287,6 +293,8 @@ a:visited {
   .topbar {
 display: flex;
 justify-content: space-between;
+padding: 25px 25%;
+
   }
   .logonav {
     height: 100%;
@@ -311,6 +319,9 @@ justify-content: space-between;
   .topbar {
 display: flex;
 justify-content: space-between;
+padding: 25px 150px;
+
+
   }
 
   .logonav {
@@ -323,12 +334,12 @@ justify-content: space-between;
   }
 
   .menunav2 {
-    display:none;
+    display: flex;
+
   }
 
   .menunav3 {
-    display: flex;
-  justify-content: space-between; 
+    display: none;
   }
 }
 
@@ -337,7 +348,7 @@ justify-content: space-between;
   .topbar {
     display: flex;
     justify-content: space-between;
-    padding: 25px 50px;
+    padding: 25px 110px;
 
   }
 
@@ -365,8 +376,7 @@ justify-content: space-between;
   .topbar {
     display: flex;
     justify-content: center;
-    padding: 25px 50px;
-
+    padding: 25px 150px;
   }
 
   .logonav {
