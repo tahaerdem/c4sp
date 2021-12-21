@@ -145,7 +145,7 @@ height: 400px;
 
 .title {
   text-align: center;
-  margin: 70px 20% 100px;
+  margin: 70px 23% 100px;
 }
 
 .socialborder {
@@ -258,6 +258,11 @@ a:visited {
     display:none;
   }
 
+  .title {
+    text-align: center;
+    margin: 70px 30% 100px;
+  }
+
   .menunav3 {
     display:none;
   }
@@ -270,12 +275,19 @@ a:visited {
   }
 }
 
+
+@media screen and (min-width: 2000px) {
+  .title {
+    text-align: center;
+    margin: 70px 35% 100px;
+  }
+}
+
 @media screen and (max-width: 1500px) {
   .topbar {
 display: flex;
 justify-content: space-between;
   }
-
   .logonav {
     height: 100%;
     display: flex;
@@ -323,8 +335,38 @@ justify-content: space-between;
 
 @media screen and (max-width: 900px) {
   .topbar {
-display: flex;
-justify-content: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+
+  }
+
+  .logonav {
+    height: 100%;
+    display: flex;
+  justify-content: flex-start;  }
+
+  .menunav {
+    display:none;
+  }
+
+  .menunav2 {
+    display:none;
+  }
+
+  .menunav3 {
+    display: flex;
+  justify-content: space-between; 
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .topbar {
+    display: flex;
+    justify-content: center;
+    padding: 25px 50px;
+
   }
 
   .logonav {
