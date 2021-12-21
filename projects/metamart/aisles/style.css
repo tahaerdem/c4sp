@@ -334,3 +334,9 @@ header {
 }
 
   }
+
+  @media screen and (max-height: 1500px) {
+    header {
+        padding-bottom: 50px;
+    }   
+      }
