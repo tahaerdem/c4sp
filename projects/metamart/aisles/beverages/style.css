@@ -372,9 +372,39 @@ a.button {
     justify-content: space-between;
 }
 
+.itemContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 10px 0px 20px 0px;
+    padding: 10px 10px 10px 10px;
+    gap: 2px 10px;
+    border: 2px  white;
+    border-style: solid;
+    color: white;
+    font-size: 15px;
+}
+
 .aisleIconRow {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: flex-start;
     height: 80%;
     width: 100%;
+}
+
+.itemGif {
+    display: inline-flex;
+}
+
+.itemCol {
+    display: inline-flex;
+    flex-direction: column;
+    width: %100;
+    flex-grow: 2;
+}
+
+.itemRow {
+    display: flex;
+    width: %100;
 }
