@@ -425,18 +425,16 @@ a.wishlistButton {
 .itemCol {
     display: inline-flex;
     flex-direction: column;
-    width: %100;
     flex-grow: 2;
 }
 
 .itemRow {
     display: flex;
-    width: %100;
 }
 
 .itemRowText {
-    display: inline-block;
-    width: %100;
+    display: flex;
+    width:35vw;
 }
 
 
@@ -474,3 +472,41 @@ a.wishlistButton {
             }   
          
               }
+
+              @media screen and (min-width: 1451px) {
+                .itemGif {
+                    height:500px;
+                    width:500px;
+                }
+            }
+
+              @media screen and (max-width: 1450px) {
+                .itemGif {
+                    height:70vw;
+                    width:70vw;
+                    justify-content: center;
+                    flex-grow: 2;
+                }
+                
+                .itemCol {
+                    width: 100%;
+                    flex-grow: 2;
+                }
+
+                .itemRowText {
+                    width: 100%;
+                    flex-grow: 2;
+                }
+            }
+
+            @media screen and (max-width: 800px) {
+                .idRecommendations {
+                    overflow-y: scroll;
+                    scrollbar-width: none;
+                    -ms-scrollbar-style: none;
+                }
+
+                .idRecommendations::-webkit-scrollbar {
+                    display: none; /* for Chrome, Safari, and Opera */
+                }
+            }
