@@ -219,6 +219,7 @@ li a:hover {
     justify-content: flex-end bottom;
     height: 40%;
     width: 40%;
+    z-index: 999;
 }
 
 .metaSlogan {
