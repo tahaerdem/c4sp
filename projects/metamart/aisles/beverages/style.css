@@ -102,8 +102,7 @@ main {
 
 .aisleSelected {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
     width: 100%;
     margin: 10px 0 20px 0;
@@ -113,11 +112,31 @@ main {
     border-style: solid;
     color: white;
     font-size: 15px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-scrollbar-style: none;
+}
+
+.aisleSelectedInset {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 0 0 0;
+    padding: 0;
+    gap: 2px 10px;
+    color: white;
+    font-size: 15px;
 }
 
 a:hover {
     color: #ec3730;
 }
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
 
 .footer-nav {
     width: 100%;
@@ -187,6 +206,18 @@ a:hover {
     color: white;
     font-size: 15px;
 }
+
+.aisleBl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 5%;
+    margin: 10px 0 20px 0;
+    padding: 10px 10px 10px 10px;
+    border-style: dashed;
+    font-size: 15px;
+}
+
 
 .aisle:hover {
     background-color: lightsalmon;
