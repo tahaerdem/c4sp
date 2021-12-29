@@ -126,6 +126,7 @@ main {
 
 .aisleHeader {
     display: flex;
+    z-index: 999;
     width: 99%;
     padding-left: 4px;
     flex-direction: row;
