@@ -155,3 +155,9 @@ a:any-link {
     color: white;
     text-decoration: none;
 }
+
+@media screen and (max-width: 800px) {
+    .metaLogoBig {
+        width: 100px;
+    }
+}
